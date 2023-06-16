@@ -32,7 +32,7 @@
     /*Body*/
     --fs-Font-size: 18px;
 
-    --ff-Family: 'Hanken Grotesk';
+    --ff-Family: 'Hanken Grotesk', sans-serif;;
     --fw-Weights-regular: 500;
     --fw-Weights-bold: 700;
     --fw-Weights-black: 800;
@@ -72,7 +72,7 @@ main{
 }
 
 .grid-flow[data-spacing="large"]{
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .result-title{
@@ -82,9 +82,10 @@ main{
 
 .button{
     color: var(--clr-White);
-    line-height: 1;
+    line-height: 2;
     background-color: var(--clr-Persian-blue-circle);
-    padding: 1rem 2rem;
+    margin-top: 1rem;
+    padding: .5rem 2rem;
     border: 0;
     border-radius: 100vw;
     cursor: pointer;
@@ -95,7 +96,7 @@ button:hover, .button:focus-visible{
 }
 
 .result-summary{
-    max-width: 46rem;
+    max-width: 44rem;
     display: grid;
 }
 
@@ -111,7 +112,7 @@ button:hover, .button:focus-visible{
 }
 
 .result{
-    padding: 2rem calc(2rem *2);
+    padding: 2.5rem;
     color: var(--clr-White);
     text-align: center;
     background-color: var(--clr-Violet-blue-circle);
@@ -138,7 +139,7 @@ button:hover, .button:focus-visible{
     display: block;
     font-size: 3rem;
     font-weight: var(--fw-Weights-black);
-    line-height: 1;
+    line-height: 1.5;
     color: var(--clr-White);
 }
 
@@ -146,6 +147,11 @@ button:hover, .button:focus-visible{
     color: var(--clr-White);
     font-size: 2rem;
     font-weight: var(--fw-Weights-bold);
+}
+
+.result-rank + p{
+    text-align: center;
+    width: 14.6rem;
 }
 
 .summary{
@@ -156,7 +162,7 @@ button:hover, .button:focus-visible{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: .5rem;
 }
 
