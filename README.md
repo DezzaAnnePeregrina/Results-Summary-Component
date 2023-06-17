@@ -37,8 +37,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-## Author
+## Author 
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - https://www.frontendmentor.io/profile/DezzaAnnePeregrina
 - Twitter - https://twitter.com/DezzaPeregrina
